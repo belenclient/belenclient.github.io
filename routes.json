@@ -1,0 +1,144 @@
+{
+	"socialRoutes": {
+		"friendRequests": {
+			"pattern": "users/friends",
+			"hash": "#!/friend-requests",
+			"target": "mySocial"
+		},
+		"userFriends": {
+			"pattern": "users/(\\d+)/friends",
+			"hash": "#!/friends",
+			"target": "users/$1/social/friends"
+		},
+		"userFollowing": {
+			"pattern": "users/(\\d+)/following",
+			"hash": "#!/following",
+			"target": "users/$1/social/following"
+		},
+		"games": {
+			"pattern": "games/(\\d+)(/.*)?",
+			"hash": "",
+			"target": "games/$1",
+			"ignoreHash": true
+		},
+		"gamepasses": {
+			"pattern": "gamepasses/(\\d+)(/.*)?",
+			"hash": "",
+			"target": "gamepasses/$1",
+			"ignoreHash": true
+		},
+		"groups": {
+			"pattern": "communities/(\\d+)(/.*)?",
+			"hash": "",
+			"target": "groups/$1",
+			"ignoreHash": true
+		},
+		"userInventory": {
+			"pattern": "users/(\\d+)/inventory(/.*)?",
+			"hash": "",
+			"target": "users/$1/inventory",
+			"ignoreHash": true
+		},
+		"userProfile": {
+			"pattern": "users/(\\d+)(/.*)?",
+			"hash": "",
+			"target": "users/$1/profile",
+			"ignoreHash": true
+		},
+		"chat": {
+			"pattern": "chat(/.*)?",
+			"hash": "",
+			"target": "chat",
+			"ignoreHash": true
+		},
+		"catalog": {
+			"pattern": "catalog/(\\d+)(/.*)?",
+			"hash": "",
+			"target": "catalog/$1",
+			"ignoreHash": true
+		},
+		"avatar": {
+			"pattern": "avatar(/.*)?",
+			"hash": "",
+			"target": "avatar",
+			"ignoreHash": true
+		},
+		"experiences": {
+			"pattern": "experiences(/.*)?",
+			"hash": "",
+			"target": "experiences",
+			"ignoreHash": true
+		},
+		"marketplace": {
+			"pattern": "marketplace(/.*)?",
+			"hash": "",
+			"target": "marketplace",
+			"ignoreHash": true
+		},
+		"premium": {
+			"pattern": "premium(/.*)?",
+			"hash": "",
+			"target": "premium",
+			"ignoreHash": true
+		},
+		"settings": {
+			"pattern": "settings(/.*)?",
+			"hash": "",
+			"target": "settings",
+			"ignoreHash": true
+		},
+		"team": {
+			"pattern": "team(/.*)?",
+			"hash": "",
+			"target": "team",
+			"ignoreHash": true
+		},
+		"transactions": {
+			"pattern": "transactions(/.*)?",
+			"hash": "",
+			"target": "transactions",
+			"ignoreHash": true
+		},
+		"accountSwitch": {
+			"pattern": "account/switch(/.*)?",
+			"hash": "",
+			"target": "account/switch",
+			"ignoreHash": true
+		},
+		"notifications": {
+			"pattern": "notifications(/.*)?",
+			"hash": "",
+			"target": "notifications",
+			"ignoreHash": true
+		},
+		"docs": {
+			"pattern": "docs(/.*)?",
+			"hash": "",
+			"target": "docs",
+			"ignoreHash": true
+		}
+	},
+	"preserveRoutes": [
+		"users/(\\d+)/social/friends",
+		"home",
+		"users/(\\d+)/profile",
+		"users/(\\d+)/inventory",
+		"chat",
+		"catalog/",
+		"avatar",
+		"experiences",
+		"marketplace",
+		"premium",
+		"settings",
+		"team",
+		"account/switch",
+		"notifications",
+		"games/(\\d+)",
+		"gamepass/(\\d+)",
+		"group/(\\d+)",
+		"groups/(\\d+)",
+		"catalog/(\\d+)",
+		"users/(\\d+)(/.*)?",
+		"docs(/.*)?"
+	]
+}

@@ -1,0 +1,1 @@
+.bb-float.svelte-fpvdp2{animation:6s ease-in-out infinite svelte-fpvdp2-bb-float}.bb-float-delayed.svelte-fpvdp2{animation:6s ease-in-out -3s infinite svelte-fpvdp2-bb-float}@keyframes svelte-fpvdp2-bb-float{0%,to{transform:translateY(0)}50%{transform:translateY(-12px)}}@media (prefers-reduced-motion:reduce){.bb-float.svelte-fpvdp2,.bb-float-delayed.svelte-fpvdp2{animation:none}}

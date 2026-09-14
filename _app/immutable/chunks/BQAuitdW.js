@@ -1,0 +1,1 @@
+async function n(e){if(!e)return!1;let i=e;try{return typeof window<"u"&&e.startsWith("/")&&(i=`${window.location.origin}${e}`),await navigator.clipboard.writeText(i),!0}catch(t){return console.error("Failed to copy share link:",t),!1}}export{n as t};
