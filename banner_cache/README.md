@@ -2,17 +2,16 @@
 
 This folder stores the profile/home banners that Belen users set.
 
-When you set a banner in the Belen theme, the extension writes your banner to a
-small JSON file here named `banner_cache/{userId}.json` instead of (or in
-addition to) the local browser storage. That way, the banner you choose follows
-you across devices and is visible to any other Belen user who opens your profile.
+When a user sets a banner in the Belen theme, the extension writes
+`banner_cache/{userId}.json` here directly through the GitHub Contents API.
+The Belen theme reads the banners from this folder.
 
-When you change your banner, the extension overwrites this file (and removes the
-old uploaded banner image if one existed), so only your current banner is
-stored.
+That way, the banner you choose follows you across devices and is visible to
+any other Belen user who opens your profile.
 
-This folder is managed automatically by the extension. You do not need to edit
-anything here by hand.
+When you change your banner, the file is overwritten with the new banner
+(and if a user's entry is removed, the file is deleted), so only current
+banners are stored here.
 
-Files are written only by users with a GitHub token configured in the Belen
-extension options.
+This folder is managed automatically. You do not need to edit anything here
+by hand.
