@@ -1,0 +1,43 @@
+{
+  "updatedAt": "2026-09-17T12:00:00.000Z",
+  "games": [
+    {
+      "rank": 1,
+      "gameId": "11158043705",
+      "seconds": 28230,
+      "players": 1,
+      "sessions": 13
+    },
+    {
+      "rank": 2,
+      "gameId": "134208374070897",
+      "seconds": 5220,
+      "players": 1,
+      "sessions": 1
+    },
+    {
+      "rank": 3,
+      "gameId": "7041939546",
+      "seconds": 5037,
+      "players": 1,
+      "sessions": 3
+    },
+    {
+      "rank": 4,
+      "gameId": "113481077323469",
+      "seconds": 4483,
+      "players": 1,
+      "sessions": 2
+    }
+  ],
+  "users": [
+    {
+      "rank": 1,
+      "userId": "2839399001",
+      "seconds": 42970,
+      "games": 4,
+      "sessions": 19,
+      "lastSeen": 1789646621389
+    }
+  ]
+}
