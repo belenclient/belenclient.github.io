@@ -1,12 +1,12 @@
 {
   "userId": "7562408281",
-  "xp": 16,
-  "minutes": 17,
+  "xp": 20,
+  "minutes": 21,
   "level": 1,
-  "levelXp": 16,
+  "levelXp": 20,
   "levelSpan": 25,
-  "xpToNextLevel": 9,
-  "todayXp": 16,
-  "todayMinutes": 14.243433333333332,
-  "updatedAt": "2026-09-26T05:23:22.742Z"
+  "xpToNextLevel": 5,
+  "todayXp": 20,
+  "todayMinutes": 17.985016666666667,
+  "updatedAt": "2026-09-26T05:27:51.261Z"
 }
